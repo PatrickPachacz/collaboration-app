@@ -11,6 +11,20 @@
 ✅ Responsive UI – Built using React with CSS for smooth UX. <br>
 ✅ Persistent State (Local Only) – Tasks are stored locally in state (no database). <br>
 
+# Technologies Used
+
+Frontend (React + TypeScript)
+
+    React 
+    TypeScript 
+    Socket.io-client 
+    CSS
+
+Backend (Node.js + Express)
+
+    Node.js & Express – Backend server
+    Socket.io – WebSockets for real-time task updates 
+
 ![collab1](https://github.com/user-attachments/assets/8e9224dd-3964-4920-957d-e5ec8da53194)
 
 ![collab2](https://github.com/user-attachments/assets/94fd5a86-4afa-4ad2-9ab5-c16aab26bbd9)
