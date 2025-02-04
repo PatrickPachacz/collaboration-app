@@ -1,9 +1,15 @@
 # React + TypeScript + Vite
 
-# Collaboration App
+# Collaboration Task Manager
 
-<p>Allows user selection<br>
-Create/delete daily tasks and descriptions</p>
+# About
+<p> A real-time collaboration task management app that allows users to create, update, and delete tasks. Users can log in as Mozart, Chopin, or Debussy and manage their own tasks. The app is built with React, TypeScript, WebSockets, and Node.js to ensure seamless, real-time task updates.</p>
+
+✅ User Selection – Choose between Mozart, Chopin, or Debussy to manage tasks. <br>
+✅ Real-Time Updates – Uses WebSockets (Socket.io) to sync tasks instantly. <br>
+✅ Task Management – Create, update, and delete tasks with descriptions. <br>
+✅ Responsive UI – Built using React with CSS for smooth UX. <br>
+✅ Persistent State (Local Only) – Tasks are stored locally in state (no database). <br>
 
 ![collab1](https://github.com/user-attachments/assets/8e9224dd-3964-4920-957d-e5ec8da53194)
 
