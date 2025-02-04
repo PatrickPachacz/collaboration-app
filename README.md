@@ -1,50 +1,32 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Collaboration Task Manager
 
-Currently, two official plugins are available:
+# About
+<p> A real-time collaboration task management app that allows users to create, update, and delete tasks. Users can log in as Mozart, Chopin, or Debussy and manage their own tasks. The app is built with React, TypeScript, WebSockets, and Node.js to ensure seamless, real-time task updates.</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ User Selection – Choose between Mozart, Chopin, or Debussy to manage tasks. <br>
+✅ Real-Time Updates – Uses WebSockets (Socket.io) to sync tasks instantly. <br>
+✅ Task Management – Create, update, and delete tasks with descriptions. <br>
+✅ Responsive UI – Built using React with CSS for smooth UX. <br>
+✅ Persistent State (Local Only) – Tasks are stored locally in state (no database). <br>
 
-## Expanding the ESLint configuration
+# Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Frontend (React + TypeScript)
 
-- Configure the top-level `parserOptions` property like this:
+    React 
+    TypeScript 
+    Socket.io-client 
+    CSS
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Backend (Node.js + Express)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+    Node.js & Express – Backend server
+    Socket.io – WebSockets for real-time task updates 
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+![collab1](https://github.com/user-attachments/assets/8e9224dd-3964-4920-957d-e5ec8da53194)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+![collab2](https://github.com/user-attachments/assets/94fd5a86-4afa-4ad2-9ab5-c16aab26bbd9)
+
+![collab3](https://github.com/user-attachments/assets/9f6815fa-048b-4bf6-a7f9-9a03723c133b)
