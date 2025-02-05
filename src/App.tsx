@@ -19,11 +19,12 @@ function App() {
   const [activeUser, setActiveUser] = useState<string | null>(null);
 
   const users = [
-    { image: "/public/mozart.jpg", name: "Mozart", },
-    { image: "/public/Debussy.jpg", name: "Debussy", },
-    { image: "/public/chopin.jpg", name: "Chopin", }
+    { image: "https://res.cloudinary.com/dyk0onjht/image/upload/v1738726475/mozart_nyyqzd.png", name: "Mozart" },
+    { image: "https://res.cloudinary.com/dyk0onjht/image/upload/v1738726521/debussy_epinnz.jpg", name: "Debussy" },
+    { image: "https://res.cloudinary.com/dyk0onjht/image/upload/v1738726529/chopin_g4hqp7.jpg", name: "Chopin" }
   ];
   
+
   const handleUserSelect = (userName: string) => {
     setActiveUser(userName);
   };
