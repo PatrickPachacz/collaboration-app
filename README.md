@@ -11,7 +11,7 @@
 ✅ Responsive UI – Built using React with CSS for smooth UX. <br>
 ✅ Persistent State (Local Only) – Tasks are stored locally in state (no database). <br>
 
-🚀 Test live using netlify link in description
+ <p><b>Test live using netlify link in description</b></p>
 
 # Technologies Used
 
